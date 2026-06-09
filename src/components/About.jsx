@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const Hero = () => {
+const About = () => {
   return (
     <section className=" sm:px-12 lg:px-20">
       <div className=" min-h-screen flex items-center px-8 sm:px-12 lg:px-20 py-10 ">
@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default About
