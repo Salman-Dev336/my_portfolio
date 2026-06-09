@@ -2,7 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center px-8 sm:px-12 lg:px-20 py-10">
+   
+     <section className="px-8 sm:px-12 lg:px-20">
+        <div className=' min-h-screen flex items-center px-8 sm:px-12 lg:px-20 py-10 '>
       <div className="max-w-3xl flex flex-col gap-2 text-start">
         <h3 className="font-semibold text-lg sm:text-lg">Hi I am</h3>
 
@@ -28,10 +30,18 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className='bg-amber-300 w-md h-96 ml-30 rounded-lg hidden lg:block'>
-        <img src="" alt="" />
-      </div>
+     <div className=" lg:flex items-center justify-center ml-30">
+ <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full bg-white overflow-hidden shadow-lg mx-auto">
+  <img
+    className="w-full h-full object-cover"
+    src="src/assets/images/image.png"
+    alt="profile picture"
+  />
+</div>
+</div>
+</div>
     </section>
+  
   );
 };
 
