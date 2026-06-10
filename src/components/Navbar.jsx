@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full mt-5 fixed top-0 left-0 z-50">
+    <nav className="w-full mt-5 fixed top-0 left-0 z-50 shadow">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <h1 className="text-2xl font-bold tracking-wide text-[#777A7E] uppercase">
           Salman.dev

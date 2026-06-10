@@ -2,7 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" sm:px-12 lg:px-20">
+    <section
+    id="home"
+     className=" sm:px-12 lg:px-20 ">
       <div className=" min-h-screen flex items-center px-8 sm:px-12 lg:px-20 py-10 ">
         <div className="max-w-3xl flex flex-col gap-2 text-start">
           <h3 className="font-semibold text-lg sm:text-lg">Hi I am</h3>
