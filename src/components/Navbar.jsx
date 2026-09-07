@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#home" className="brand-mark">
           Salman<span>.dev</span>
-        </h1>
+        </a>
 
         <div>
           <ul className="nav-links hidden md:flex gap-9 text-sm">
