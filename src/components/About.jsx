@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <section
       id="about"
-      className="min-h-screen px-8 sm:px-12 lg:px-20 py-16 flex items-center"
+      className="h-screen px-8 sm:px-12 lg:px-20 py-16 flex items-center"
     >
       <div className="w-full flex flex-col lg:flex-row gap-16">
         {/* LEFT SIDE */}
