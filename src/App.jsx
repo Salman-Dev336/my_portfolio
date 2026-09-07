@@ -2,13 +2,15 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden bg-[#fffdfb] text-[#171717]">
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </div>
   )
 }

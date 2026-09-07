@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <section
       id="about"
-      className="h-screen px-8 sm:px-12 lg:px-20 py-16 flex items-center"
+      className="min-h-[min(760px,100svh)] px-8 sm:px-12 lg:px-20 py-24 flex items-center"
     >
       <div className="w-full flex flex-col lg:flex-row gap-16">
         {/* LEFT SIDE */}
@@ -52,7 +52,7 @@ const AboutPage = () => {
               {/* Progress Bar */}
               <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-[#FD6F00] rounded-full"
+                  className="h-full bg-[#FD6F00] rounded-full skill-fill"
                   style={{ width: skill.percentage }}
                 ></div>
               </div>

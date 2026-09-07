@@ -1,12 +1,10 @@
-import React from "react";
+import profileImage from "../assets/images/image.png";
 
 const Hero = () => {
   return (
-    <section
-    id="home"
-     className=" sm:px-12 lg:px-20 ">
-      <div className="h-screen flex items-center px-8 sm:px-12 lg:px-20 py-10 ">
-        <div className="max-w-3xl flex flex-col gap-2 text-start">
+    <section id="home" className="px-8 pt-20 sm:px-12 lg:px-20">
+      <div className="mx-auto flex min-h-[min(760px,100svh)] max-w-7xl flex-col items-center gap-12 py-16 lg:flex-row lg:gap-20">
+        <div className="max-w-3xl flex flex-col gap-2 text-start hero-copy">
           <h3 className="font-semibold text-lg sm:text-lg">Hi I am</h3>
 
           <h1 className="text-[#FD6F00] font-bold text-2xl sm:text-2xl md:text-3xl">
@@ -31,11 +29,11 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className=" lg:flex items-center justify-center ml-30">
+        <div className="flex items-center justify-center lg:ml-auto hero-portrait">
           <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full bg-white overflow-hidden shadow-lg mx-auto">
             <img
               className="w-full h-full object-cover"
-              src="src/assets/images/image.png"
+              src={profileImage}
               alt="profile picture"
             />
           </div>
