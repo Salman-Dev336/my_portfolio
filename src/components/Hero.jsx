@@ -1,46 +1,27 @@
 import profileImage from "../assets/images/image.png";
 
-const Hero = () => {
-  return (
-    <section id="home" className="px-8 pt-20 sm:px-12 lg:px-20">
-      <div className="mx-auto flex min-h-[min(760px,100svh)] max-w-7xl flex-col items-center gap-12 py-16 lg:flex-row lg:gap-20">
-        <div className="max-w-3xl flex flex-col gap-2 text-start hero-copy">
-          <h3 className="font-semibold text-lg sm:text-lg">Hi I am</h3>
+const Arrow = () => <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M5 19 19 5M8 5h11v11" /></svg>
 
-          <h1 className="text-[#FD6F00] font-bold text-2xl sm:text-2xl md:text-3xl">
-            Salman Khan
-          </h1>
-
-          <h2 className="text-black font-bold text-4xl sm:text-5xl md:text-6xl">
-            Full Stack Developer
-          </h2>
-
-          <div className="max-w-lg">
-            <p className="text-gray-600 text-sm sm:text-base font-light ">
-              with expertise in React, Node.js, and MongoDB. I create dynamic
-              and responsive web applications that deliver exceptional user
-              experiences.
-            </p>
-          </div>
-
-          <div className="flex justify-center sm:justify-start mt-6">
-            <button className="w-full sm:w-40 h-11 rounded-lg font-light bg-[#FD6F00] text-white text-sm sm:text-base hover:opacity-90 transition">
-              Hire Me
-            </button>
-          </div>
-        </div>
-        <div className="flex items-center justify-center lg:ml-auto hero-portrait">
-          <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-full bg-white overflow-hidden shadow-lg mx-auto">
-            <img
-              className="w-full h-full object-cover"
-              src={profileImage}
-              alt="profile picture"
-            />
-          </div>
-        </div>
+const Hero = () => (
+  <section id="home" className="hero-section px-8 pt-20 sm:px-12 lg:px-20">
+    <span className="hero-sun" aria-hidden="true" />
+    <div className="hero-layout mx-auto flex min-h-[min(760px,100svh)] max-w-7xl flex-col items-center gap-12 py-16 lg:flex-row lg:gap-20">
+      <div className="hero-copy max-w-3xl text-start">
+        <p className="hero-eyebrow"><span className="pulse-dot" />Available for new projects</p>
+        <p className="mt-7 text-sm font-semibold uppercase tracking-[.2em] text-zinc-500">Hi, I’m <span className="text-[#FD6F00]">Salman Khan</span></p>
+        <h1 className="hero-title mt-3">I build digital<br /><span>experiences</span> that<br />people enjoy.</h1>
+        <p className="hero-description">Full Stack Developer with a focus on creating thoughtful, responsive web applications that look as good as they work.</p>
+        <div className="hero-actions"><a href="#contact" className="hero-primary">Let’s work together <Arrow /></a><a href="#projects" className="hero-secondary">View my work <span>↓</span></a></div>
+        <div className="hero-trust"><span>React</span><i /><span>Node.js</span><i /><span>MongoDB</span></div>
       </div>
-    </section>
-  );
-};
+      <div className="hero-portrait flex items-center justify-center lg:ml-auto">
+        <div className="portrait-shape" /><div className="portrait-ring" />
+        <div className="portrait-image"><img src={profileImage} alt="Salman Khan" /></div>
+        <div className="portrait-tag portrait-tag--top"><span>✦</span><div><strong>Creative</strong><small>developer</small></div></div>
+        <div className="portrait-tag portrait-tag--bottom"><span className="tag-code">&lt;/&gt;</span><div><strong>2+ years</strong><small>of building</small></div></div>
+      </div>
+    </div>
+  </section>
+);
 
 export default Hero;
