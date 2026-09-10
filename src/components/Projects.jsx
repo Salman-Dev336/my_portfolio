@@ -53,7 +53,7 @@ const Projects = () => (
           <p className="section-kicker">Selected work <span /></p>
           <h2 className="mt-4 text-4xl font-bold tracking-[-0.04em] sm:text-5xl lg:text-6xl">A few things I’ve<br className="hidden sm:block" /> brought to life.</h2>
         </div>
-        <p className="max-w-xs text-sm leading-6 text-zinc-500 sm:text-base">Thoughtful interfaces and reliable experiences, made for people first.</p>
+        <p className="max-w-xs text-sm leading-6 text-stone-500 sm:text-base">Thoughtful interfaces and reliable experiences, made for people first.</p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
@@ -61,11 +61,11 @@ const Projects = () => (
           <article className="project-card group" style={{ '--delay': `${index * 110}ms` }} key={project.title}>
             <Preview accent={project.accent} />
             <div className="p-6 sm:p-7">
-              <div className="mb-7 flex items-center justify-between text-xs font-medium uppercase tracking-[0.16em] text-zinc-400">
+              <div className="mb-7 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-stone-400">
                 <span>{project.number}</span><span>{project.type}</span>
               </div>
               <h3 className="text-2xl font-bold tracking-[-0.03em]">{project.title}</h3>
-              <p className="mt-3 min-h-12 text-sm leading-6 text-zinc-500">{project.description}</p>
+              <p className="mt-3 min-h-12 text-[.88rem] leading-6 text-stone-500">{project.description}</p>
               <div className="mt-6 flex items-center justify-between gap-3">
                 <div className="flex flex-wrap gap-2">{project.tags.map(tag => <span key={tag} className="project-tag">{tag}</span>)}</div>
                 <a href="#contact" aria-label={`Discuss a project like ${project.title}`} className="project-link"><Arrow /></a>

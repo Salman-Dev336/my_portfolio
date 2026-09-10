@@ -8,7 +8,7 @@ const Hero = () => (
     <div className="hero-layout mx-auto flex min-h-[min(760px,100svh)] max-w-7xl flex-col items-center gap-12 py-16 lg:flex-row lg:gap-20">
       <div className="hero-copy max-w-3xl text-start">
         <p className="hero-eyebrow"><span className="pulse-dot" />Available for new projects</p>
-        <p className="mt-7 text-sm font-semibold uppercase tracking-[.2em] text-zinc-500">Hi, I’m <span className="text-[#FD6F00]">Salman Khan</span></p>
+        <p className="mt-7 text-sm font-semibold uppercase tracking-[.2em] text-stone-600">Hi, I'm <span className="text-[#FD6F00]">Salman Khan</span></p>
         <h1 className="hero-title mt-3">I build digital<br /><span>experiences</span> that<br />people enjoy.</h1>
         <p className="hero-description">Full Stack Developer with a focus on creating thoughtful, responsive web applications that look as good as they work.</p>
         <div className="hero-actions"><a href="#contact" className="hero-primary">Let’s work together <Arrow /></a><a href="#projects" className="hero-secondary">View my work <span>↓</span></a></div>

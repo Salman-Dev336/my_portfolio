@@ -20,7 +20,7 @@ const AboutPage = () => {
             <span className="about-accent-text"> Next Project?</span>
           </h2>
 
-          <p className="text-gray-600 leading-8 max-w-2xl">
+          <p className="text-stone-600 leading-8 max-w-2xl text-[1.02rem]">
             I am a passionate Full Stack Developer focused on building
             responsive and modern web applications. I specialize in React.js,
             Tailwind CSS, Redux Toolkit, and backend technologies like Node.js
