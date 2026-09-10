@@ -11,9 +11,9 @@ const Contact = () => (
         <p className="section-kicker">Get in touch <span /></p>
         <h2>Let's make something<br /><em>great</em> together.</h2>
         <p className="contact-copy">Have a project, an idea, or simply want to say hello? My inbox is always open.</p>
-        <a className="contact-email" href="mailto:hello@salmankhan.dev">hello@salmankhan.dev <Arrow /></a>
+        <a className="contact-email" href="mailto:salmantechhub336@gmail.com">salmantechhub336@gmail.com <Arrow /></a>
         <div className="contact-socials">
-          <a href="#contact">LinkedIn</a><a href="#contact">GitHub</a><a href="#contact">Instagram</a>
+          <a href="https://www.linkedin.com/in/salman-khan-b79359358/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/Salman-Dev336" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
 
