@@ -9,7 +9,7 @@ const Contact = () => (
     <div className="contact-inner mx-auto max-w-7xl">
       <div className="contact-intro">
         <p className="section-kicker">Get in touch <span /></p>
-        <h2>Let’s make something<br /><em>great</em> together.</h2>
+        <h2>Let's make something<br /><em>great</em> together.</h2>
         <p className="contact-copy">Have a project, an idea, or simply want to say hello? My inbox is always open.</p>
         <a className="contact-email" href="mailto:hello@salmankhan.dev">hello@salmankhan.dev <Arrow /></a>
         <div className="contact-socials">
@@ -25,7 +25,12 @@ const Contact = () => (
         <p className="form-note">Usually replies within 1–2 business days.</p>
       </form>
     </div>
-    <footer className="site-footer"><span>© {new Date().getFullYear()} Salman Khan</span><span>Designed &amp; built with care.</span></footer>
+
+    <footer className="site-footer">
+      <span>© {new Date().getFullYear()} Salman Khan</span>
+      <span>Designed &amp; built with care.</span>
+      <a href="#home" className="back-to-top" aria-label="Back to top">↑</a>
+    </footer>
   </section>
 )
 
